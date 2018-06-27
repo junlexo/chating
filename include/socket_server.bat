@@ -1,0 +1,1 @@
+F:\xampp\php\php.exe -q F:\xampp\htdocs\chating\include\php-socket.php

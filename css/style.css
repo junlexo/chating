@@ -1,0 +1,125 @@
+.body {
+  background-color: lightgreen;
+  color: blue; }
+.body .tab-message {
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  max-width: 500px;
+  width: 100%;
+  overflow-y: auto;
+  height: 100%;
+}
+.body .message {
+  max-width: 500px;
+  width: 100%;
+    height: 1000px; }
+.Error-fix h2 {
+  font-size: 30px;
+  color: red;
+}
+#view-history {
+  cursor: pointer;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  margin-left: -67px;
+}
+#chat-user {
+  color: green;
+  font-size: 13px;
+  font-weight: 700;
+}
+.chat-connection-ack {
+  color: #26af26;
+  font-size: 20px;
+}
+/* Form Login & Register */
+.box-join {
+  text-align: center;
+  padding: 20px 10px; }
+.view-error {
+  z-index: 10;
+}
+.main-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  margin-bottom: 10px; }
+  .main-menu h1 {
+    margin: 0;
+   }
+  .main-menu a {
+    cursor: pointer; }
+.box-join {
+  max-width: 360px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: solid 1px #22b8e4;
+  border-radius: 5px;
+  background: #36c8c7;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+#formJoin .data-input {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  padding: 8px 7px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  width: 300px;
+  color: #555;
+  max-width: calc(100% - 16px);
+  border-radius: 4px;
+   }
+  #formJoin .btn-submit {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #428bca;
+    color: #fff;
+    border: 1px solid #428bca;
+    font-size: 15px;
+    border-radius: 4px;
+     }
+    #formJoin .btn-submit:hover {
+      cursor: pointer;
+      opacity: 0.9;
+      background-color: #42caa4;
+       }
+  #formJoin .alert {
+    color: #fff;
+    width: 300px;
+    padding: 8px 7px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: left; }
+.msg-user {
+  text-align: right;
+   font-size: 14px;
+}
+.hide {
+  display: none;
+}
+.msg-user span {
+  background-color: aliceblue;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.info-msg-user, .info-msg {
+  font-size: 10px;
+  color: white;
+}
+
+.msg {
+  text-align: left;
+   font-size: 14px;
+}
+.msg span {
+  background-color: deepskyblue;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 4px;
+}
